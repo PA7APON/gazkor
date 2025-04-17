@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAZKORMONTAZH</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="top-bar">
+      <div class="container">
+        <div class="contact-info">
+            <img src="images/phone.png" alt="Номер телефона">
+          <span> +7 (926) 535-70-70</span>
+          <img src="images/mail.png" alt="Почта">
+          <span>5357070@gmail.com</span>
+          <img src="images/location.png" alt="Адрес">
+          <span> г. Красногорск, ул. Строительная д.5</span>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container">
+        <div class="logo-container">
+          <a href="#" class="logo">
+            <img src="images/Iogo.png" alt="Логотип компании" width="80" height="60">
+          </a>
+          <p class="company-name">ГАЗКОРМОНТАЖ</p>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#about" class="nav-link">О компании</a></li>
+            <li><a href="#services" class="nav-link">Услуги</a></li>
+            <li><a href="#projects" class="nav-link">Проекты</a></li>
+            <li><a href="#footer" class="nav-link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Газ — ваш путь к теплу и удобству!</h1>
+      <a href="#contact-form" class="btn">Получить консультацию</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>О компании</h2>
+      <p>Наша компания уже 14 лет является надежным партнером для тех, кто ценит качество, безопасность и профессионализм в сфере газификации. 
+        Мы специализируемся на комплексном оснащении газовым оборудованием как частных домовладений, так и крупных промышленных объектов по городе Москва и Московской области.
+        За годы успешной работы мы выполнили сотни проектов различной сложности, зарекомендовав себя как ответственный и опытный подрядчик.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Наши услуги</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="images/fire.png" alt="Подключение газа">
+          <h3>Подключение к газу</h3>
+          <p>Выполняем подключение объектов любой сложности с соблюдением всех норм и стандартов.</p>
+        </div>
+        <div class="card">
+          <img src="images/gaz1.png" alt="Проектирование газа">
+          <h3>Проектирование газа</h3>
+          <p>Разрабатываем полный пакет проектной документации для газификации.</p>
+        </div>
+        <div class="card">
+          <img src="images/icon-builder.png" alt="Газовое строительство">
+          <h3>Газовое строительство</h3>
+          <p>Проводим весь комплекс монтажных работ с гарантией качества.</p>
+        </div>
+        <div class="card">
+          <img src="images/doc.png" alt="Документация">
+          <h3>Документация</h3>
+          <p>Оформляем полный пакет документов для согласования и эксплуатации.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Наши проекты</h2>
+      <div class="gallery">
+        <img src="images/Новая папка/IMG_0498.JPG" alt="Завод снегири">
+        <img src="images/Новая папка/IMG_0726.JPG" alt="Проект 2">
+        <img src="images/Новая папка/IMG_0535.JPG" alt="Проект 3">
+      </div>
+      <input type="checkbox" id="toggle-projects" class="toggle-checkbox">
+      <label for="toggle-projects" class="btn toggle-label"></label>
+      <div class="extra-projects">
+        <img src="images/Новая папка (3)/IMG_20190124_104747.jpg" alt="Проект 4">
+        <img src="images/Новая папка (3)/IMG_20190124_110800.jpg" alt="Проект 5">
+        <img src="images/Новая папка (3)/IMG_20190124_111445.jpg" alt="Проект 6">
+      </div>
+    </div>
+  </section>
+
+<footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <img src="images/Iogo.png" alt="Логотип компании" width="80" height="60">
+            <p class="company-name">ГАЗКОРМОНТАЖ</p>
+          </div>
+          <p>С 2011 года мы предоставляем качественные услуги, помогая нашим клиентам обеспечить тепло и комфорт в их домах и предприятиях. 
+            Наша задача — сделать процесс подключения к газу простым, безопасным и доступным.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Свяжитесь с нами</h3>
+          <form id="contact-form" class="contact-form" method="POST">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Номер телефона" required>
+            <button type="submit" class="btn submit-btn">Отправить</button>
+            <div class="form-message" style="display: none;"></div>
+          </form>
+        </div>
+        <div class="footer-column">
+          <h3>Контактная информация</h3>
+          <p>Адрес: г. Красногорск, ул. Строительная д.5</p>
+          <p>Телефон: +7 (926) 535-70-70</p>
+          <p>Email: 5357070@gmail.com</p>
+          <p>ИНН: 5047121480 КПП: 504701001 ОГРН: 1115047000595</p>
+          <p>Юридический адрес: 	141400, Московская обл., г. Химки, ул. Молодежная, д. 30 этаж 2 пом. 12, 13, 14, 15</p>
+        </div>
+    </div>
+    <div class="map">
+      <h3 class="map-heading">Адрес офиса</h3>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae8e738a0cf8f0c1b2d6399b92e86fc2fd4a9849ba1818e9976095499ee0854da&amp;source=constructor" width="1000" height="400" frameborder="0"></iframe>      </div>
+      <div class="copyright">
+        <p>© 2025 ГАЗКОРМОНТАЖ. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
